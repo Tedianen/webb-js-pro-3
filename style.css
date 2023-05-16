@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #222222;
+  height: 2000px;
+}
+.top {
+  background-color: #313131;
+  width: 100%;
+  height: 35vh;
+}
+.topLogo {
+  margin-left: 37%;
+  width: 25vw;
+  height: 40vh;
+  background-image: url("yonw4por-removebg-preview.png");
+  background-size: cover;
+}
+.header {
+  height: 18vh;
+  background-color: rgb(38, 38, 38);
+  position: sticky;
+  top: 0;
+}
+.logo {
+  margin-left: 2%;
+  width: 8%;
+  height: 90%;
+  background-image: url("wotBlitz-logo.png");
+  background-size: cover;
+}
+.links {
+  width: 100%;
+  text-align: right;
+  margin-right: 4%;
+  margin-top: -8vh;
+}
+a {
+  text-decoration: none;
+  color: azure;
+  margin: 3%;
+}
+/**************** For The Operation ****************/
+.mainFTO {
+  display: flex;
+  flex-wrap: wrap;
+  color: azure;
+}
+.mainFTO > div {
+  background-color: #313131;
+  width: 590px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.mainFTO > div:hover {
+  background-color: azure;
+}
+.PP {
+  background-image: url("PremiumPass2.png");
+}
+.PPhover:hover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.345);
+}
+
+.L {
+  background-image: url("license2.png");
+}
+.EP {
+  background-image: url("ExtendedPass.png");
+}
+
+/*************       Offers      **************/
+
+.OperationOffers {
+  background-image: url("Operation.jpg");
+  background-color: #313131;
+  width: 1180px;
+  height: 300;
+  margin: 20px;
+}
+.OperationOffers:hover {
+  background-color: azure;
+}
+.mainO {
+  display: flex;
+  flex-wrap: wrap;
+  color: azure;
+}
+.mainO > div {
+  background-color: #313131;
+  width: 590px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  background-size: contain;
+}
+.mainO > div:hover {
+  background-color: azure;
+}
+.item1 {
+  background-image: url("item1.png");
+}
+.item2 {
+  background-image: url("item2.png");
+}
+.item3 {
+  background-image: url("item5.png");
+}
+.item4 {
+  background-image: url("item6.png");
+}
+.item5 {
+  background-image: url("item7.png");
+}
+.Riches {
+  display: flex;
+  flex-wrap: wrap;
+  color: azure;
+}
+.Riches > div {
+  color: azure;
+  background-color: #313131;
+  width: 275px;
+  height: 250px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  background-size: cover;
+}
+.Riches > div:hover {
+  background-color: azure;
+}
+.item6 {
+  background-image: url("item3.png");
+}
+.item7 {
+  background-image: url("item4.png");
+}
+.item8 {
+  background-image: url("item8.png");
+}
+.item9 {
+  background-image: url("item9.png");
+}
+
+/******************     Tanks      ********************/
+.tank1 {
+  background-image: url("Iekpz\ M\ 41\ 90mm.png");
+}
+.tank2 {
+  background-image: url("T22uncathable.png");
+}
+.tank3 {
+  background-image: url("Object\ 252U\ vigilant.png");
+}
+.tank4 {
+  background-image: url("Type57mecha.png");
+}
+.tank5 {
+  background-image: url("Watchful\ patrul.png");
+}
+
+/********************     Gold      ********************/
+.G250 {
+  background-image: url("250.png");
+}
+.G1500 {
+  background-image: url("1500.png");
+}
+.G3250 {
+  background-image: url("3250.png");
+}
+.G8500 {
+  background-image: url("8500.png");
+}
+.G17500 {
+  background-image: url("17500.png");
+}
+.G27000 {
+  background-image: url("27000.png");
+}
+.G37500 {
+  background-image: url("37500.png");
+}
