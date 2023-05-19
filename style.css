@@ -166,6 +166,23 @@ button {
 .item5 {
   background-image: url("item7.png");
 }
+
+/******************     Tanks      ********************/
+.tank1 {
+  background-image: url("Watchful\ patrul.png");
+}
+.tank2 {
+  background-image: url("T22uncathable.png");
+}
+.tank3 {
+  background-image: url("Object\ 252U\ vigilant.png");
+}
+.tank4 {
+  background-image: url("Type57mecha.png");
+}
+
+/********************     Gold      ********************/
+
 .Riches {
   display: flex;
   flex-wrap: wrap;
@@ -191,34 +208,7 @@ button {
 .RichesH > button {
   margin-top: 20%;
 }
-.item6 {
-  background-image: url("item3.png");
-}
-.item7 {
-  background-image: url("item4.png");
-}
-.item8 {
-  background-image: url("item8.png");
-}
-.item9 {
-  background-image: url("item9.png");
-}
 
-/******************     Tanks      ********************/
-.tank1 {
-  background-image: url("Watchful\ patrul.png");
-}
-.tank2 {
-  background-image: url("T22uncathable.png");
-}
-.tank3 {
-  background-image: url("Object\ 252U\ vigilant.png");
-}
-.tank4 {
-  background-image: url("Type57mecha.png");
-}
-
-/********************     Gold      ********************/
 .G250 {
   background-image: url("250.png");
 }
