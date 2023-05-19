@@ -23,6 +23,7 @@ body {
   background-color: rgb(38, 38, 38);
   position: sticky;
   top: 0;
+  z-index: +10;
 }
 .logo {
   margin-left: 2%;
@@ -42,38 +43,101 @@ a {
   color: azure;
   margin: 3%;
 }
+p {
+  color: rgba(255, 200, 0, 0.909);
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: -8%;
+}
+h1 {
+  color: azure;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 25%;
+}
+h2 {
+  color: azure;
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: -5%;
+}
 /**************** For The Operation ****************/
+
 .mainFTO {
   display: flex;
   flex-wrap: wrap;
   color: azure;
 }
 .mainFTO > div {
-  background-color: #313131;
+  background-color: #222222;
   width: 590px;
   height: 300px;
   margin: 20px;
-  text-align: center;
   line-height: 75px;
   font-size: 30px;
 }
 .mainFTO > div:hover {
-  background-color: azure;
+  background-color: rgba(0, 0, 0, 0.372);
+  color: azure;
 }
 .PP {
+  position: relative;
   background-image: url("PremiumPass2.png");
 }
-.PPhover:hover {
+
+/* .PP > h1 {
+  margin-left: -70%;
+  margin-top: 25%;
+}
+.PP > p {
+  margin-left: -80%;
+  margin-top: -8%;
+} */
+.PPH {
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 255, 0.345);
+  margin-top: -42.48%;
+  background-color: rgba(0, 0, 0, 0);
 }
-
+button {
+  color: azure;
+  background-color: rgb(255, 77, 0);
+  margin-top: 43%;
+  margin-left: 5%;
+  width: 30%;
+  height: 10%;
+}
 .L {
   background-image: url("license2.png");
 }
+.LH {
+  position: absolute;
+  width: 46%;
+  height: 50%;
+  margin-top: -20%;
+  background-color: rgba(0, 0, 0, 0);
+}
 .EP {
   background-image: url("ExtendedPass.png");
+}
+.EPH {
+  position: absolute;
+  width: 46%;
+  height: 50%;
+  margin-top: -20%;
+  background-color: rgba(0, 0, 0, 0);
+}
+.EPBC {
+  background-color: rgba(0, 0, 0, 0.653);
+  width: 100%;
+  height: 100%;
+  position: static;
+  margin-top: -43%;
+  color: rgba(240, 255, 255, 0);
+}
+.EPBC:hover {
+  color: azure;
 }
 
 /*************       Offers      **************/
